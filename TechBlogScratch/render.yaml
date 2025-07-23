@@ -1,0 +1,8 @@
+services:
+  - type: web
+    name: TechBlogPortal
+    env: docker
+    branch: main
+    plan: free
+    dockerfilePath: Dockerfile
+    autoDeploy: true
