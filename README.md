@@ -49,7 +49,7 @@ Copy
 Edit
 http://localhost:8080/TechBlog/
 ## Developer: Saumya Pandey
-Email: your-email@example.com
+Email: saumya1617pandey@example.com
 GitHub: @saumyapandey456
 
 ##🤝 Contribution
