@@ -36,14 +36,13 @@ public class AddPostServlet extends HttpServlet {
 
 //            out.println("your post title is " + pTitle);
 //            out.println(part.getSubmittedFileName());
-
             Post p = new Post(pTitle, pContent, pCode, part.getSubmittedFileName(), null, cid, user.getId());
             PostDao dao = new PostDao(ConnectionProvider.getConnection());
             if (dao.savePost(p)) {
 
-            String path = request.getRealPath("/") + "blog_pics" + File.separator + part.getSubmittedFileName();    
-            Helper.saveFile(part.getInputStream(), path);
-            out.println("done");
+                String path = request.getRealPath("/") + "blog_pics" + File.separator + part.getSubmittedFileName();
+                Helper.saveFile(part.getInputStream(), path);
+                out.println("done");
             } else {
                 out.println("error");
             }

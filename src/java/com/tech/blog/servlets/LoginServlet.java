@@ -19,12 +19,7 @@ public class LoginServlet extends HttpServlet {
         response.setContentType("text/html;charset=UTF-8");
         try (PrintWriter out = response.getWriter()) {
             /* TODO output your page here. You may use following sample code. */
-            out.println("<!DOCTYPE html>");
-            out.println("<html>");
-            out.println("<head>");
-            out.println("<title>Servlet LoginServlet</title>");
-            out.println("</head>");
-            out.println("<body>");
+            
 
             //fetch username and password from request;
             String userEmail = request.getParameter("email");
@@ -32,12 +27,12 @@ public class LoginServlet extends HttpServlet {
             UserDao dao = new UserDao(ConnectionProvider.getConnection());
             User u = dao.getUserByEmailAndPassword(userEmail, userPassword);
             if (u == null) {
-//                login error
-//                out.println("Invalid Details try again...");
+//              login error
+                //out.println("Invalid Details try again...");
 
-                Message msg = new Message("Invalid Details! try with another", "error", "alert-danger");
+                Message msg = new Message("Invalid Details! Try again", "error", "alert-danger");
                 HttpSession s = request.getSession();
-                s.setAttribute("msg", msg);
+                s.setAttribute("msg", msg);  //key and value.
                 response.sendRedirect("login_page.jsp");
             } else {
                 HttpSession s = request.getSession();
@@ -45,8 +40,7 @@ public class LoginServlet extends HttpServlet {
                 response.sendRedirect("profile.jsp");
             }
 
-            out.println("</body>");
-            out.println("</html>");
+            
         }
     }
 

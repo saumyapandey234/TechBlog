@@ -10,10 +10,10 @@
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
         <link href="css/mystyle.css" rel="stylesheet" type="text/css"/>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-         
+
         <style>
             body{
-            background:url(img/HD-wallpaper-simple-dark-plain-background-color.jpg);
+                background:url(img/HD-wallpaper-simple-dark-plain-background-color.jpg);
                 background-size:cover;
                 background-attachment: fixed;
             }
@@ -36,19 +36,19 @@
                             </div>
 
                             <%
-                                Message m = (Message)session.getAttribute("msg");
+                                Message m = (Message) session.getAttribute("msg");
                                 if (m != null) {
                             %>
-                            <div class="alert <%= m.getCssClass() %>" role="alert">
-                                <%= m.getContent() %>
+                            <div class="alert <%= m.getCssClass()%>" role="alert">
+                                <%= m.getContent()%>
                             </div>
 
                             <%
-                                session.removeAttribute("msg");
+                                    session.removeAttribute("msg");
                                 }
                             %>
 
-                           
+
 
 
 

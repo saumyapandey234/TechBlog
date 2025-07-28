@@ -21,7 +21,7 @@
             .banner-background{
                 clip-path: polygon(30% 0%, 70% 0%, 100% 30%, 99% 100%, 74% 95%, 28% 95%, 0 99%, 0% 30%);
             }
-            
+
             body{
                 background:url(img/HD-wallpaper-simple-dark-plain-background-color.jpg);
                 background-size:cover;
@@ -44,7 +44,8 @@
                         Welcome to Tech Blog
                     </h3>
 
-                    <p>A programming language is a system of notation for writing computer programs.Programming languages are described in terms of their syntax (form) and semantics (meaning), usually defined by a formal language. Languages usually provide features such as a type system, variables, and mechanisms for error handling. An implementation of a programming language is required in order to execute programs, namely an interpreter or a compiler. An interpreter directly executes the source code, while a compiler produces an executable program.</p>
+                    <p>Dive into a world of stories shared by passionate users. From the latest in politics, games, sports, Bollywood, and Hollywood, explore trending topics, voice your thoughts, and connect with a like-minded community. Share your interests, spark conversations, and be part of something exciting every day.
+                        This is your personal space to write, read, and connect through ideas. From tech trends and cultural shifts to personal experiences and creative expressions, it’s where diverse voices meet. Explore meaningful content, share unique perspectives, and become part of a growing community that values originality, knowledge, and open conversation.</p>
 
                     <button class="btn-outline-ligth btn-lg"><span class="fa fa-user">Start its Free</button>
                     <a href="login_page.jsp" class="btn-outline-ligth btn-lg"><span class="fa fa-user-circle-o">Login</a>
@@ -67,8 +68,8 @@
                     <div class="card">
 
                         <div class="card-body">
-                            <h5 class="card-title">Java</h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <h5 class="card-title">Bollywood</h5>
+                            <p class="card-text">Bollywood is a vibrant world of storytelling, music, and emotion that captures the heart of India. From the glitz of award shows to the depth of meaningful cinema, Bollywood inspires millions. On TechBlog, explore film reviews, actor journeys, behind-the-scenes insights, and trending gossip. Whether it’s analyzing dialogues, celebrating legendary actors, or discussing fan theories, our Bollywood section is a space where cinema lovers unite. Share your own opinions, fan edits, or movie experiences. Whether you're a Shah Rukh fan or love indie films, there's something here for every Bollywood buff.</p>
                             <a href="#" class="btn btn primary-background text-white">Read More</a>
                         </div>
                     </div>
@@ -78,8 +79,10 @@
                     <div class="card">
 
                         <div class="card-body">
-                            <h5 class="card-title">Java</h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <h5 class="card-title">Hollywood</h5>
+                            <p class="card-text">Step into the realm of Hollywood, where global cinema meets innovation and creativity. TechBlog brings you everything from blockbuster analyses to deep dives into award-winning films. Explore the latest from Marvel, DC, and other franchises. Review Netflix thrillers, HBO dramas, and cult classics. Learn about VFX, cinematography, and the people behind the magic. Whether you're into actor spotlights, red carpet style, or controversial endings, this section fuels your Hollywood obsession. Share your thoughts, predictions, or critiques—and become a part of global cinematic conversations.
+
+                            </p>
                             <a href="#" class="btn btn primary-background text-white">Read More</a>
                         </div>
                     </div>
@@ -90,8 +93,8 @@
                     <div class="card">
 
                         <div class="card-body">
-                            <h5 class="card-title">Java</h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <h5 class="card-title">Games</h5>
+                            <p class="card-text">For gaming enthusiasts, TechBlog is your playground. Stay updated with the latest releases in PC, mobile, and console gaming. From in-depth reviews and strategy guides to game mechanics and esports coverage, we cover it all. Dive into nostalgic retro games or the latest open-world adventures. Share your personal gaming highlights, glitches, or competitive streaks. Whether you’re a casual player or a pro-level streamer, this space is for you. Discuss game development, character arcs, soundtracks, and everything that makes gaming an unforgettable experience.</p>
                             <a href="#" class="btn btn primary-background text-white">Read More</a>
                         </div>
                     </div>
@@ -107,8 +110,8 @@
                     <div class="card">
 
                         <div class="card-body">
-                            <h5 class="card-title">Java</h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <h5 class="card-title">Research & Innovation</h5>
+                            <p class="card-text">TechBlog is also a platform for knowledge seekers and curious minds. Our research section explores the latest in science, technology, and innovation. Break down complex discoveries, summarize research papers, and highlight projects changing the world. From artificial intelligence and medicine to environmental sustainability, we focus on impactful innovation. Engage with ethical questions, student research, and historical breakthroughs. Share your own insights or learn from others’ work. It’s a place where creativity meets logic, and where ideas spark meaningful conversations.</p>
                             <a href="#" class="btn btn primary-background text-white">Read More</a>
                         </div>
                     </div>
@@ -118,8 +121,8 @@
                     <div class="card">
 
                         <div class="card-body">
-                            <h5 class="card-title">Java</h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <h5 class="card-title">Geography</h5>
+                            <p class="card-text">Geography is more than maps and mountains—it's the story of our planet and how we live on it. On TechBlog, dive into discussions on natural landscapes, climate change, and global ecosystems. Explore fascinating topics like volcanoes, rivers, deserts, and oceans, or understand the science behind weather patterns and natural disasters. Learn how geography shapes human culture, trade routes, migration patterns, and geopolitical relations. From the icy poles to tropical rainforests, there’s a world to explore through words. Analyze urban development, population studies, and sustainability. Understand how rising sea levels and deforestation affect our planet. Discuss the geography of conflict zones, border disputes, and resource distribution. Whether you're a student, traveler, or environmentalist, geography here becomes an exciting lens to see the world.</p>
                             <a href="#" class="btn btn primary-background text-white">Read More</a>
                         </div>
                     </div>
@@ -130,8 +133,8 @@
                     <div class="card">
 
                         <div class="card-body">
-                            <h5 class="card-title">Java</h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <h5 class="card-title">History</h5>
+                            <p class="card-text">History is our connection to the past—how civilizations rose, cultures evolved, and ideas changed the world. On TechBlog, delve into the fascinating tales of ancient empires, revolutions, and movements that shaped today’s society. Explore the lives of great leaders, freedom fighters, philosophers, and unsung heroes. Uncover the causes and impacts of world wars, independence struggles, and cultural renaissances. Learn about forgotten dynasties, trade networks, and historical inventions that changed human progress. Examine how art, literature, and religion influenced societies over time. Engage with historical debates, timelines, and archaeological discoveries. From the Indus Valley and Roman Empire to World War II and modern revolutions, our history section brings the past alive. Share insights, raise questions, and connect the dots between history and the present world.</p>
                             <a href="#" class="btn btn primary-background text-white">Read More</a>
                         </div>
                     </div>
@@ -139,14 +142,10 @@
 
 
             </div>
-
-
-
-
-
-
         </div>
-
+        
+        
+        
 
 
 

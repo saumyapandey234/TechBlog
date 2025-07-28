@@ -34,7 +34,7 @@ public class UserDao {
 
     //get user by email and password:
     public User getUserByEmailAndPassword(String email, String password) {
-        User user = null;
+        User user = null;//blank object
         try {
 
             String query = "select * from user where email=? and password =?";
@@ -44,10 +44,9 @@ public class UserDao {
 
             ResultSet set = ptst.executeQuery();
 
-            if (set.next()) {
+            if (set.next()) {  //if there is any row
 
             }
-
             user = new User();
             //data from db
             String name = set.getString("name");

@@ -23,10 +23,10 @@ public class RegisterServlet extends HttpServlet {
             /* TODO output your page here. You may use following sample code. */
            
             
-//            fetch all form data
+//          fetch all form data
             String check=request.getParameter("check");
             if(check==null){
-                out.println("Box not checked");
+                out.println("Oops!! Please check the box");
                 
             }else{
                 String name=request.getParameter("user_name");
@@ -35,7 +35,7 @@ public class RegisterServlet extends HttpServlet {
                 String gender=request.getParameter("gender");
                 String about=request.getParameter("about");
                 
-//                create user object and set all data to that object.
+//              create user object and set all data to that object.
                 User user=new User(name,email,password,gender,about);
                 
                 ///create a user dao object... 

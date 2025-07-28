@@ -19,20 +19,20 @@ public class Logout extends HttpServlet {
         response.setContentType("text/html;charset=UTF-8");
         try (PrintWriter out = response.getWriter()) {
             /* TODO output your page here. You may use following sample code. */
-            out.println("<!DOCTYPE html>");
-            out.println("<html>");
-            out.println("<head>");
-            out.println("<title>Servlet Logout</title>");            
-            out.println("</head>");
-            out.println("<body>");
+//            out.println("<!DOCTYPE html>");
+//            out.println("<html>");
+//            out.println("<head>");
+//            out.println("<title>Servlet Logout</title>");            
+//            out.println("</head>");
+//            out.println("<body>");
             HttpSession s=request.getSession();
             s.removeAttribute("currentUser");
             Message m=new Message("Logout Successfully","success","alert-success");
             s.setAttribute("msg",m);
             
             response.sendRedirect("login_page.jsp");
-            out.println("</body>");
-            out.println("</html>");
+//            out.println("</body>");
+//            out.println("</html>");
         }
     }
 

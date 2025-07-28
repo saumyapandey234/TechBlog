@@ -50,22 +50,17 @@
                                 <div class="form-group">
                                     <textarea name="about" class="form-control" id=""  rows="5" placeholder="Enter something about yourself"></textarea>
                                 </div>
-
-
-
-
-
                                 <div class="form-check">
                                     <input name="check" type="checkbox" class="form-check-input" id="exampleCheck1">
-                                    <label class="form-check-label" for="exampleCheck1"> agree terms and conditions</label>
+                                    <label class="form-check-label" for="exampleCheck1"> Agree terms and conditions</label>
                                 </div>
 
                                 <div class="container text-center" id="loader" style="display: none;">
                                     <span class="fa fa-refresh fa-spin fa-4x"></span>
                                     <h4>Please wait....</h4>
                                 </div>
-                                    <button id="submit-btn" type="submit" class="btn btn-primary">Submit</button>
-                                
+                                <button id="submit-btn" type="submit" class="btn btn-primary">Submit</button>
+
                             </form>
                         </div>
                         <div class="card-footer">
@@ -82,7 +77,7 @@
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js" integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+" crossorigin="anonymous"></script>
     <script src="js/myjs.js" type="text/javascript"></script>
-    
+
     <!--    //this is ajax and jquery for submitting the data at same page without moving to other one.-->
     <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
     <script>
@@ -104,13 +99,13 @@
                         console.log(data);
                         $("#submit-btn").show();
                         $("#loader").hide();
-                        
-                        if(data.trim()==="done"){
-                                swal("registered successfully ..we redirecting to login page")
-                                .then((value) => {
-                                   window.location="login_page.jsp";
-                                });
-                        }else{
+
+                        if (data.trim() === "done") {
+                            swal("Registered successfully ..We Redirecting you to the login page")
+                                    .then((value) => {
+                                        window.location = "login_page.jsp";
+                                    });
+                        } else {
                             swal(data);
                         }
 
@@ -118,8 +113,8 @@
                     error: function (jqXHR, textStatus, errorThrown) {
                         $("#submit-btn").show();
                         $("#loader").hide();
-                        swal("something went wrong try again..");
-                               
+                        swal("Something went wrong try again..");
+
 
                     },
                     processData: false,

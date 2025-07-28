@@ -4,10 +4,10 @@
 <%@page import="com.tech.blog.helper.ConnectionProvider"%>
 <%@page import="com.tech.blog.entities.Message"%>
 <%@page import="com.tech.blog.entities.User" %>
-<%@page errorPage="error_page"%>
+<%@page errorPage="error_page.jsp"%>
 
 <%
-    User user = (User) session.getAttribute("currentUser");
+    User user = (User)session.getAttribute("currentUser");
     if (user == null) {
         response.sendRedirect("login_page.jsp");
     }
@@ -166,7 +166,7 @@
         <!--end of main body of pg-->
 
 
-        <!--            Profile modal-->
+        <!--Start Profile modal-->
 
 
 
@@ -224,7 +224,7 @@
                             </div>
                         </div>
 
-                        <!--          Profile edit-->
+                        <!--Profile edit-->
                         <div id="profile-edit" style="display:none;">
                             <h3 class="mt-2">Please Edit Carefully</h3>
                             <form action="EditServlet" method="POST" enctype="multipart/form-data">
