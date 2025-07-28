@@ -7,8 +7,10 @@ public class ConnectionProvider {
     public static Connection getConnection(){
         try{
             if(con==null){
+                String url = System.getenv("DB_URL");
+//                String url = '';
                 Class.forName("com.mysql.cj.jdbc.Driver");
-                con=DriverManager.getConnection("jdbc:mysql://localhost:3306/techblog","root","12345");
+                con=DriverManager.getConnection(url);
             }
             
         }catch(Exception e){
